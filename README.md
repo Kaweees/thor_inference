@@ -1,7 +1,7 @@
 # Thor Inference
 
 ```bash
-export TORCH_CUDA_ARCH_LIST=12.1f # Spark, for Thor 11.0a
+export TORCH_CUDA_ARCH_LIST=11.0f
 export TRITON_PTXAS_PATH=/usr/local/cuda/bin/ptxas
 export PATH=/usr/local/cuda/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
